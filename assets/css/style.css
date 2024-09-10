@@ -3359,6 +3359,13 @@ h3 a:hover{
   height: 14px;
   background-repeat: no-repeat;
 }
+.footer-top-two .widget-title .divider{
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 14px;
+  background-repeat: no-repeat;
+}
 
 .footer-top p,
 .footer-top a{
@@ -5009,10 +5016,11 @@ h3 a:hover{
   position: relative;
   display: block;
   margin-bottom: 27px;
+  margin-left: 18px;
 }
 
 .footer-top-two .widget-title h3{
-  color: #ffffff;
+  color: #0c79e0;
 }
 
 .footer-top-two .links-widget .links-list li{
@@ -5036,14 +5044,7 @@ h3 a:hover{
 
 }
 
-.footer-top-two .links-widget .links-list li a:before{
-  position: absolute;
-  content: '';
-  width: 6px;
-  height: 6px;
-  left: 0px;
-  top: 9px;
-}
+
 
 .footer-top-two .gallery-widget .image-list{
   position: relative;
@@ -15221,7 +15222,7 @@ h3 a:hover{
 }
 .custom-modal-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   padding: 20px;
   border-top: none;
 }
@@ -15529,7 +15530,7 @@ h3 a:hover{
 
 @media (min-width: 992px) and (max-width:1199px) {
   .hero-banner-two .hero-heading {
-      font-size: 65px
+      font-size: 35px
   }
   
 }

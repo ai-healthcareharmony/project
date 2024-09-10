@@ -85,7 +85,7 @@
 	// Elements Animation
 	if($('.wow').length){
 		var wow = new WOW({
-		mobile:       false
+		mobile:       true
 		});
 		wow.init();
 	}

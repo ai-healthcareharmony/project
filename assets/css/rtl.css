@@ -215,10 +215,7 @@
   text-align: right;
 }
 
-.rtl .footer-top-two .links-widget .links-list li a{
-  padding-left: 0px;
-  padding-right: 27px;
-}
+
 
 .rtl .footer-top-two .links-widget .links-list li a:before{
   left: inherit;
