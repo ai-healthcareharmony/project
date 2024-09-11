@@ -288,12 +288,14 @@
 
     //three-item-carousel
 	if ($('.three-item-carousel').length) {
+		if ($(window).width() > 768) {
 		$('.three-item-carousel').owlCarousel({
 			loop:true,
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
 			autoplay: 1000,
+			autoHeight: true, 
 			navText: [ '<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -312,7 +314,8 @@
 					items:3
 				}
 			}
-		});    		
+		});
+	}
 	}
 
 	// Four Item Carousel
