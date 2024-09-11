@@ -2215,6 +2215,7 @@
   .hero-banner-two .demo-btn {line-height: 48px; font-size: 17px;}
   .hero-banner-two {padding: 0;}
   .hero-banner-two .bg-wrapper {padding: 100px 0 250px;}
+  .pull-up{bottom:0;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

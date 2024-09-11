@@ -15436,7 +15436,7 @@ h3 a:hover{
   font-family: 'Work Sans';
   font-size: 32px;
   line-height: 1.15em;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .sweet-title {
@@ -15462,7 +15462,7 @@ h3 a:hover{
     7px 7px 1px #0e1c40,  
     9px 7px 1px #1a3c7e;  /* Updated to #1a3c7e */
   }
-.hero-banner-two .hero-heading::after {
+/* .hero-banner-two .hero-heading::after {
   content: '';
   position: absolute;
   top: 0;
@@ -15490,7 +15490,7 @@ h3 a:hover{
   filter: blur(2px);
   opacity: 0.7;
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-}
+} */
 
 
 .hero-banner-two .demo-btn {
@@ -15521,9 +15521,29 @@ h3 a:hover{
   color: rgba(0, 0, 0, 0.08);
 }
 
+.text-bg-clip-animation-test {
+  font-size: 60px;
+  line-height: 200px;
+  font-weight: bolder;
+  color: #000;
+  margin: 0;
+  text-align: center;
+  background-size: 40%;
+  background-position: 50% 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+}
+
 @media (max-width: 1200px) {
   .text-bg-clip-animation {
       font-size: 75px;
+      line-height: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .text-bg-clip-animation {
+      font-size: 65px;
       line-height: 100px;
   }
 }
@@ -15544,4 +15564,8 @@ h3 a:hover{
 
 .image_block_1 .image-box .video-btn a:after {
   animation-delay: .6s;
+}
+
+.pull-up{
+  bottom:80px;
 }
